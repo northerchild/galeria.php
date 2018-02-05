@@ -11,7 +11,7 @@
 <body>
 	<header>
 		<div class="contenedor">
-			<h1 class="tituli">Mi Galeria</h1>
+			<h1 class="titulo">Mi Galeria</h1>
 		</div>
 	</header>
 	<section class="fotos">
