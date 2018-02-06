@@ -18,42 +18,42 @@
 		<div class="contenedor">
 			<div class="thumb">
 				<a href="#">
-					<img src="assets/fotos/1.jpg" alt="">
+					<img src="assets/imagenes/1.jpg" alt="">
 				</a>
 			</div>
 			<div class="thumb">
 				<a href="#">
-					<img src="assets/fotos/2.jpg" alt="">
+					<img src="assets/imagenes/2.jpg" alt="">
 				</a>
 			</div>
 			<div class="thumb">
 				<a href="#">
-					<img src="assets/fotos/3.jpg" alt="">
+					<img src="assets/imagenes/3.jpg" alt="">
 				</a>
 			</div>
 			<div class="thumb">
 				<a href="#">
-					<img src="assets/fotos/4.jpg" alt="">
+					<img src="assets/imagenes/4.jpg" alt="">
 				</a>
 			</div>
 			<div class="thumb">
 				<a href="#">
-					<img src="assets/fotos/5.jpg" alt="">
+					<img src="assets/imagenes/5.jpg" alt="">
 				</a>
 			</div>
 			<div class="thumb">
 				<a href="#">
-					<img src="assets/fotos/6.jpg" alt="">
+					<img src="assets/imagenes/6.jpg" alt="">
 				</a>
 			</div>
 			<div class="thumb">
 				<a href="#">
-					<img src="assets/fotos/7.jpg" alt="">
+					<img src="assets/imagenes/7.jpg" alt="">
 				</a>
 			</div>
 			<div class="thumb">
 				<a href="#">
-					<img src="assets/fotos/8.jpg" alt="">
+					<img src="assets/imagenes/8.jpg" alt="">
 				</a>
 			</div>
 			<div class="paginacion">

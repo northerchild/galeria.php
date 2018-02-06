@@ -8,13 +8,16 @@
 		</div>
 	</header>
 		<div class="contenedor">
-			<form class="formulario" enctype="multipar/form-data" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post">
+			<form class="formulario" enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post">
 				<label for="foto">Seleciona tu foto</label>
 				<input type="file" id="foto" name="foto">
 				<label for="titulo">Titulo de tu foto</label>
 				<input type="text" id="titulo" name="titulo">
 				<label for="texto">Agrega la descripcion</label>
 				<textarea name="texto" id="texto" placeholder="Ingresa una descripcion" ></textarea>
+				<?php if(isset($error)) :?>
+					<p class="error"><?php echo $error; ?></p>
+				<?php endif ?>	
 				<input type="submit" class="submit" value="Subir foto">
 			</form>
 		</div>
