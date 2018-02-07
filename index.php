@@ -22,7 +22,6 @@
 	$statement = $conexion->prepare("SELECT FOUND_ROWS() as total");
 	$statement->execute();
 	$total_post = $statement->fetch()['total'];
-
 	$total_pagina = ceil($total_post/ $fotos_por_pagina);
 	
 
