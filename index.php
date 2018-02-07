@@ -24,7 +24,7 @@
 	$total_post = $statement->fetch()['total'];
 
 	$total_pagina = ceil($total_post/ $fotos_por_pagina);
-	print_r($total_pagina);
+	
 
 	require_once "/assets/views/indexView.php"
 

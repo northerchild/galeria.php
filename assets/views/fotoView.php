@@ -16,7 +16,7 @@
 	</header>
 		<div class="contenedor">
 			<div class="foto">
-				<img src="assets/fotos/1.jpg" alt="">
+				<img src="assets/imagenes/1.jpg" alt="">
 				<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, praesentium.</p>
 				<a href="index.php" class="regresar"><i class="fa fa-long-arrow-left"></i>Regresar</a>
 			</div>

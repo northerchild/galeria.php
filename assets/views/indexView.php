@@ -16,49 +16,21 @@
 	</header>
 	<section class="fotos">
 		<div class="contenedor">
-			<div class="thumb">
-				<a href="#">
-					<img src="assets/imagenes/1.jpg" alt="">
-				</a>
-			</div>
-			<div class="thumb">
-				<a href="#">
-					<img src="assets/imagenes/2.jpg" alt="">
-				</a>
-			</div>
-			<div class="thumb">
-				<a href="#">
-					<img src="assets/imagenes/3.jpg" alt="">
-				</a>
-			</div>
-			<div class="thumb">
-				<a href="#">
-					<img src="assets/imagenes/4.jpg" alt="">
-				</a>
-			</div>
-			<div class="thumb">
-				<a href="#">
-					<img src="assets/imagenes/5.jpg" alt="">
-				</a>
-			</div>
-			<div class="thumb">
-				<a href="#">
-					<img src="assets/imagenes/6.jpg" alt="">
-				</a>
-			</div>
-			<div class="thumb">
-				<a href="#">
-					<img src="assets/imagenes/7.jpg" alt="">
-				</a>
-			</div>
-			<div class="thumb">
-				<a href="#">
-					<img src="assets/imagenes/8.jpg" alt="">
-				</a>
-			</div>
+		<!--Ciclo para traer las fotos-->	
+			<?php foreach($fotos as $foto):?>
+				<div class="thumb">
+					<a href="foto.php?id=<?php echo $foto['id'];?>">
+						<img src="assets/fotos/<?php echo $foto['imagen'];?>" >
+					</a></div>
+			<?php endforeach;?>	
+		<!--Funcionalidad de los botones-->
 			<div class="paginacion">
-				<a href="#" class="izquierda"><i class="fa fa-long-arrow-left"></i>Pagina Anterior</a>
-				<a href="#" class="derecha">Pagina Siguiente <i class="fa fa-long-arrow-right"></i></a>
+				<?php if($pagina_actual >1):?>
+					<a href="index.php?p=<?php echo $pagina_actual - 1;?>" class="izquierda"><i class="fa fa-long-arrow-left"></i>Pagina Anterior</a>
+				<?php endif;?>
+				<?php if($total_pagina != $pagina_actual):?>	
+				<a href="index.php?p=<?php echo $pagina_actual + 1;?>" class="derecha">Pagina Siguiente <i class="fa fa-long-arrow-right"></i></a>
+				<?php endif;?>		
 			</div>
 		</div>
 	</section>
